@@ -32,11 +32,17 @@ Run the script in a Python environment (e.g., Jupyter Notebook, Google Colab, or
 
 ## Code Explanation
 Data Loading: The dataset is loaded using pandas.
+
 Data Overview: The first few rows, shape, summary statistics, and missing values are displayed for a quick overview.
+
 Class Distribution: The distribution of different species in the dataset is printed.
+
 Data Visualization: Pairwise relationships between features are visualized using seaborn's pairplot.
+
 Data Splitting: The dataset is split into training and testing sets (80% training, 20% testing).
+
 Model Training: A KNN classifier is initialized and trained on the training data.
+
 Model Evaluation: The model's accuracy, confusion matrix, and classification report are printed and visualized.
 
 ## Results
